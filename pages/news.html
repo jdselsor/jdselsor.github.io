@@ -25,7 +25,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
     <a href="../index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
 	<a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
-	<a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+	<a href="news.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Games</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
   </div>
@@ -49,80 +49,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
 <div class="w3-main" style="margin-left:250px">
-	
-	<div class="w3-row w3-padding-64">
-		<div class="w3-twothird w3-container">
-			<h1 class="w3-text-teal">🌷Great Spring Game Jam: 2021🌷 - Lord of Spring 2</h1>
-			<h6 class="w3-text-teal">3-1-2021</h6>
-			<p>
-				I did major things today were <b>one</b> I implmented a palette swaping script
-				I found on <a href="https://gamedevelopment.tutsplus.com/tutorials/how-to-use-a-shader-to-dynamically-swap-a-sprites-colors--cms-25129">Tuts Plus</a>
-				What it does is takes a palette texutre, in this case 8 pixel by 1 pixel where each pixel
-				is the a color on the optional palette, and recolors a grey scale pixel acoording to that
-				pixel's color value along the texture. The <b>second</b> major thing I did was implmenting
-				a circle around the player that is the new color and everything else is in the grey scale.
-				I did this by creating a two background using the same sprite but on has the palette swap
-				shader on it. Then applying a sprite mask in with a circle sprite and excluding the grey scale
-				sprite. I'm not a big fan of this. What I would like to do only apply the shader in the mask.
-				What I think I would need to do is something in the fragment shader, but I'm going to do this
-				for now. <b>Finally</b> I made a player sprite. I don't really love it. I like it, but I don't
-				really love it.
-			</p>
-			<p>
-				The next thing I'm going to do is implment the basic attack, design some enemies, and think about some levels.
-				Later on (after writting this) I'm going to plan the majority of the game.
-			</p>
-			<center>
-				<img src="../images/player.png" alt="no game image" width="300" height="auto">
-			</center>
-			<p>
-				This is the player. They don't have a name yet. There are two major things that are making me not
-				love this. I don't like the the weird blue belt thing and the lack of an outline. The outline issue
-				could be fixed by scaling up the size form 8x8 to 16x16 and changing the design, but that is an issue
-				for future me.
-			</p>
-			<center>
-				<img src="../images/gameplay_1.png" alt="no game image" width="800" height="auto">
-			</center>
-			<p>
-				This where the game play is at now. I need to get some screen capture software to show the movement.
-				Right now the player can move <i>up</i>, <i>down</i>, <i>left</i>, <i>right</i>, and <i>dash</i> in the direction the player is moving.
-			</p>
-		</div>
-	</div>
-	
-	<div class="w3-row w3-padding-64">
-		<div class="w3-twothird w3-container">
-			<h1 class="w3-text-teal">🌷Great Spring Game Jam: 2021🌷 - Lord of Spring 1</h1>
-			<h6 class="w3-text-teal">2-28-2021</h6>
-			<p>
-				My plan for the jam is to do some sort of rougelite where the player has to
-				fight up a tower and defeat the final boss. The story I came up with is the
-				player is the <b>Lord of Spring</b> and you have to take the tower of the seasons from
-				the <b>Lord of Winter</b> to bring in spring.
-			</p>
-			<p>
-				So far my ideas are:
-				<ul>
-					<li><b>Palette Swapping:</b> When the player clears a room the palette will change from a winter themed one to the <a href="https://lospec.com/palette-list/greyt-bit">optional palette<a> on the jam page.</li>
-					<li><b>Sprite Swapping:</b> Like the palette swapping. Some sprite should switch from a winter one to a spring one.</li>
-					<li><b>Spring Aura: </b> An area around the player is always the the spring palette. A another cool effect of this would to be show parts of sprites that would swap.</li>
-				</ul>
-			</p>
-			<p>
-				Today I created the <a href="https://github.com/jdselsor/The-Lord-of-Spring">github repo</a> and started the player movement and camera follow.
-				At the moment the player can move and dash in the direction of movement. There is also a crosshair
-				for when I implment the player attacking. Finally I added a smooth camera follow. There is an issue with
-				the crosshair jittering when the player moves, but that is an issue for future me.
-			</p>
-			<p>
-				The next thing I want to do is work on a player sprite, a better crosshair sprite,
-				implement the player attacking with a basic attack and a speical attack, and finally
-				iron out more details of the game. Also the working title for this game is Lord of Spring.
-				I don't know how I feel about it.
-			</p>
-		</div>
-	</div>
 
   <!--<div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
