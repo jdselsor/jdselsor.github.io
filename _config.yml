@@ -23,6 +23,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 show_downloads: true
 logo: /assets/logo.jpg
+is_user_page: true
 
 # Build settings
 markdown: kramdown
