@@ -1,0 +1,14 @@
+---
+layout: post
+author: jdselsor
+---
+
+# Game Progress
+It was kind of a long day at work today, but I was able to make some progress. I worked out a platformer controller using Pefeper's Making a Better Jump[^1] and Mokarrom Hossain's Double Jump[^2] and Coyote Jump[^3] videos. I also implmented a movable platformer using the Kids Can Code recipe[^4].
+
+The next step will be doing some level design which should give me a good idea of mechanics.
+
+[^1]: https://www.youtube.com/watch?v=IOe1aGY6hXA
+[^2]: https://www.youtube.com/watch?v=OVpOTULlFR4
+[^3]: https://www.youtube.com/watch?v=Qxz1ujJchH8
+[^4]: https://kidscancode.org/godot_recipes/4.x/2d/moving_platforms/index.html
